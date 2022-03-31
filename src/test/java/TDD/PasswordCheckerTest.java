@@ -26,11 +26,5 @@ class PasswordCheckerTest {
     public void testFirstChar() {
         PasswordChecker.passwordFirstCharUpperCase("hejsan");
     }
-
-/*    @Test
-    @DisplayName("Password must contain at least one number.")
-    public void testNumbers() {
-        Assertions.assertTrue(PasswordChecker.containsDigit("Hej6an"));
-    }*/
-
+    
 }
