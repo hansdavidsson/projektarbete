@@ -18,13 +18,13 @@ class PasswordCheckerTest {
     @Test
     @DisplayName("Passwords shorter than 6 characters should throw an exception")
     public void testPasswordLength() {
-        PasswordChecker.passwordLength("hesan");
+        PasswordChecker.passwordLength("hesjan");
     }
 
     @Test
     @DisplayName("First character in password must be a capital letter")
     public void testFirstChar() {
-        PasswordChecker.passwordFirstCharUpperCase("hejsan");
+        PasswordChecker.passwordFirstCharUpperCase("Hejsan");
     }
-    
+
 }
